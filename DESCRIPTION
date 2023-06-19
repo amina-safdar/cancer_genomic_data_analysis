@@ -1,0 +1,27 @@
+Package: brca.shiny
+Title: An Amazing Shiny App
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "firstname",
+           family = "lastname",
+           role = c("aut", "cre"),
+           email = "your@email.com")
+Description: What the package does (one paragraph).
+License: What license is it under?
+Depends: 
+    R (>= 4.3.0)
+Imports: 
+    config (>= 0.3.1),
+    golem (>= 0.4.1),
+    shiny (>= 1.7.4),
+    dplyr(>= 1.1.2),
+    tidyr(>= 1.3.0),
+    forcats(>= 1.0.0),
+    ggplot2(>= 3.4.2),
+    stringr(>= 1.5.0)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
